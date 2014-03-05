@@ -1,6 +1,6 @@
 {
   "name": "moment.almost-twitter",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "An extension to moment.js that formats dates like Twitter, with > 6d times being formatted as %d days. (unlike twitter)",
   "main": "moment-twitter.js",
   "scripts": {
