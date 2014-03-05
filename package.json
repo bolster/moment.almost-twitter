@@ -1,14 +1,14 @@
 {
-  "name": "moment-twitter",
+  "name": "moment.almost-twitter",
   "version": "0.2.0",
-  "description": "An extension to moment.js that formats dates like Twitter",
+  "description": "An extension to moment.js that formats dates like Twitter, with > 6d times being formatted as %d days. (unlike twitter)",
   "main": "moment-twitter.js",
   "scripts": {
     "test": "node test.js"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/hijonathan/moment.twitter.git"
+    "url": "git://github.com/bolster/moment.almost-twitter.git"
   },
   "keywords": [
     "momentjs",
@@ -19,11 +19,12 @@
   ],
   "author": "Jonathan Kim <me@jonathan-kim.com> (http://jonathan-kim.com)",
   "contributors": [
-    "Nathan Bowser <nathan.bowser@spiderstrategies.com>"
+    "Nathan Bowser <nathan.bowser@spiderstrategies.com>",
+    "Nick Hudkins <nick@bolsterlabs.com>"
   ],
   "license": "BSD-2-Clause",
   "bugs": {
-    "url": "https://github.com/hijonathan/moment.twitter/issues"
+    "url": "https://github.com/bolster/moment.almost-twitter/issues"
   },
   "dependencies": {
     "moment": "~2.4.0"
