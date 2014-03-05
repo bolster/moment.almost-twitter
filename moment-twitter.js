@@ -48,6 +48,7 @@
         unit = 'hours';
       } else if (format === 'short') {
         unit = 'days';
+        num = Math.abs(this.diff(moment(), 'days'));
       } else {
         return this.format('MMM D');
       }

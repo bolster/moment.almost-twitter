@@ -39,6 +39,7 @@ initialize = (moment) ->
             unit = 'hours'
         else if format is 'short'
             unit = 'days'
+            num = Math.abs @diff(moment(), 'days')
         else
             return @format 'MMM D'
 
