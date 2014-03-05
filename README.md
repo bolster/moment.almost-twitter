@@ -1,7 +1,7 @@
 Twitter-like Date Formatter  [![Build Status](https://travis-ci.org/hijonathan/moment.twitter.png?branch=master)](https://travis-ci.org/hijonathan/moment.twitter)
 ==================================================
 
-moment.twitter.js is an extension to moment.js that formats dates like Twitter.
+moment.twitter.js is an extension to moment.js that formats dates ~~like~~ almost-like Twitter.
 
 ### Usage
 
@@ -82,6 +82,6 @@ Times greater than 6 days are --slash-separated--. (almost twitter)
 
 ```
 moment(moment() + 6048e5).twitterShort()
-// --3/7/86--
+// ~~3/7/86~~
 // 47d
 ```
