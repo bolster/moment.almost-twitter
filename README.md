@@ -78,10 +78,9 @@ moment(moment() + (864e5 * 6)).twitterShort()
 // 6d
 ```
 
-Times greater than 6 days are --slash-separated--. (almost twitter)
+Times greater than 6 days are ~~slash-separated~~. (almost twitter)
 
 ```
 moment(moment() + 6048e5).twitterShort()
-// ~~3/7/86~~
 // 47d
 ```
