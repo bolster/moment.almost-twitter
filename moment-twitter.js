@@ -47,11 +47,7 @@
       } else if (diff < day) {
         unit = 'hours';
       } else if (format === 'short') {
-        if (diff < week) {
-          unit = 'days';
-        } else {
-          return this.format('M/D/YY');
-        }
+        unit = 'days';
       } else {
         return this.format('MMM D');
       }

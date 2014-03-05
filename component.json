@@ -2,7 +2,7 @@
   "name": "moment.almost-twitter",
   "repo": "bolster/moment.almost-twitter",
   "description": "An extension to moment.js that formats dates like Twitter, with > 6d times being formatted as %d days. (unlike twitter)",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "keywords": [],
   "dependencies": {},
   "development": {},
