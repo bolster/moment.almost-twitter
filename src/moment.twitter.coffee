@@ -38,10 +38,7 @@ initialize = (moment) ->
         else if diff < day
             unit = 'hours'
         else if format is 'short'
-            if diff < week
-                unit = 'days'
-            else
-                return @format 'M/D/YY'
+            unit = 'days'
         else
             return @format 'MMM D'
 
